@@ -1,5 +1,5 @@
-INSERT INTO TB_CATEGORY (name) VALUES ('Books');
-INSERT INTO TB_CATEGORY (name) VALUES ('Eletronics');
-INSERT INTO TB_CATEGORY (name) VALUES ('Computers');
-INSERT INTO TB_CATEGORY (name) VALUES ('Desks');
-INSERT INTO TB_CATEGORY (name) VALUES ('Tables');
+INSERT INTO TB_CATEGORY (name, created_At) VALUES ('Books', NOW());
+INSERT INTO TB_CATEGORY (name, created_At) VALUES ('Eletronics', NOW());
+INSERT INTO TB_CATEGORY (name, created_At) VALUES ('Computers', NOW());
+INSERT INTO TB_CATEGORY (name, created_At) VALUES ('Desks', NOW());
+INSERT INTO TB_CATEGORY (name, created_At) VALUES ('Tables', NOW());
